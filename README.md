@@ -23,20 +23,31 @@ DSA/
 │   ├── TripletsSum.java
 │   └── TwoArraysEqual.java
 │
-└── Strings/
-    ├── Anagram.java
-    ├── Capitalize.java
-    ├── Frequency.java
-    ├── Length.java
-    ├── NonRepeating.java
-    ├── NumbersInString.java
-    ├── Palindrome.java
-    ├── RemoveSpaces.java
-    ├── RemoveVowels.java
-    ├── Reverse.java
-    ├── SortAlphabetically.java
-    ├── ToggleCharacter.java
-    └── TwoStringsCompare.java
+├── Strings/
+│   ├── Anagram.java
+│   ├── Capitalize.java
+│   ├── Frequency.java
+│   ├── Length.java
+│   ├── NonRepeating.java
+│   ├── NumbersInString.java
+│   ├── Palindrome.java
+│   ├── RemoveSpaces.java
+│   ├── RemoveVowels.java
+│   ├── Reverse.java
+│   ├── SortAlphabetically.java
+│   ├── ToggleCharacter.java
+│   └── TwoStringsCompare.java
+│
+└── Patterns/
+    ├── DiamondNumber.java
+    ├── DiamondStars.java
+    ├── FloydsTriangle.java
+    ├── HollowRectangle.java
+    ├── NumberPyramid.java
+    ├── PalindromicPyramid.java
+    ├── PascalsTriangle.java
+    ├── Pyramid.java
+    └── SolidRectangle.java
 ```
 ## 📂 Array Programs
 
@@ -76,6 +87,20 @@ DSA/
 | 12 | ToggleCharacter | Toggle case of each character |
 | 13 | TwoStringsCompare | Compare two strings lexicographically |
 
+## 📂 Pattern Programs
+
+| # | Program | Description |
+|---|---------|-------------|
+| 1 | DiamondNumber | Print a diamond pattern using numbers |
+| 2 | DiamondStars | Print a diamond pattern using stars |
+| 3 | FloydsTriangle | Print Floyd's Triangle |
+| 4 | HollowRectangle | Print a hollow rectangle |
+| 5 | NumberPyramid | Print a number pyramid |
+| 6 | PalindromicPyramid | Print a palindromic number pyramid |
+| 7 | PascalsTriangle | Print Pascal's Triangle |
+| 8 | Pyramid | Print a simple pyramid pattern |
+| 9 | SolidRectangle | Print a solid rectangle |
+
 ## 🛠️ How to Run
 
 ### Arrays
@@ -90,6 +115,14 @@ java FileName
 
 ```bash
 cd Strings
+javac FileName.java
+java FileName
+```
+
+### Patterns
+
+```bash
+cd Patterns
 javac FileName.java
 java FileName
 ```
@@ -113,3 +146,9 @@ java FileName
 - Lexicographical Comparison
 - String Sorting
 - Pattern Processing
+
+### Patterns
+- Nested Loops
+- Star Patterns
+- Number Patterns
+- Pyramid Patterns
