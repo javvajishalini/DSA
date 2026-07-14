@@ -1,16 +1,13 @@
 
 import java.util.Scanner;
 
-// Program to reverse a given number
-// Example: Input: 12345 → Output: 54321
-//          Input: -678  → Output: -876
-
 class ReverseNumber {
 
-    // Iterative approach to reverse a number
     static int reverse(int n) {
         boolean isNegative = n < 0;
-        if (isNegative) n = -n;
+        if (isNegative) {
+            n = -n;
+        }
 
         int rev = 0;
         while (n > 0) {
